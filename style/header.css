@@ -1,0 +1,29 @@
+header {
+  background-color: #0a89ab;
+  height: 60px;
+  color: white;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  vertical-align: bottom;
+  height: 100%;
+  width: 90%;
+  max-width: 980px;
+}
+
+.container i {
+  font-size: max(25px, 3vw);
+  position: absolute;
+  left: 3%;
+}
+
+.container h2 {
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: max(16px, 3vw);
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
