@@ -1,0 +1,105 @@
+
+header {
+    background-color: #0A89AB;
+    height: 10vh;
+    color: white; 
+}
+
+.container i{
+    font-size: max(25px,3vw);
+    position: absolute;
+    left: 3%;
+}
+  
+.container h2{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: max(16px,3vw);
+    left: 45vw;
+    
+}
+header .container {
+    display: flex;
+    align-items: center;
+    vertical-align: bottom;
+    height: 100%;
+    width: 90%;
+    max-width: 980px;
+}
+
+.balao{
+    margin-top: 5vh;
+    display: block;
+    border-radius: 0px 0px 100px 0px;
+    width: 100vw;
+    height: 30vh;
+    background: #005A72;
+  }
+
+.balao2{
+    margin-top: 5vh;
+    display: block;
+    border-radius: 0px 0px 0px 60px;
+    width: 100vw;
+    height: 30vh;
+    background: #005A72;
+  }
+
+
+
+.p1{
+    top: 23vh;
+    width: 90vw;
+    position: absolute;
+    left: 5vw;
+    text-align: center;
+
+
+}
+  p{
+    font-size: min(16px,3vw);
+    text-align: justify;
+    line-height: 130%;
+    font-family: 'Nunito', sans-serif;
+    color: blanchedalmond;
+  }
+
+.p2{
+    top: 58vh;
+    width: 90vw;
+    position: absolute;
+    left: 5vw;
+    text-align: center;
+
+
+}
+
+.balao2 h3{
+    padding-top: 3vh;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: max(14px,2vw);
+    text-align: center;
+    color: blanchedalmond;
+
+}
+
+.balao h3{
+    padding-top: 3vh;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: max(14px,2vw);
+    text-align: center;
+    color: blanchedalmond;
+
+}
+
+
+
+
+
+main{
+
+    height: 100vh;
+}
