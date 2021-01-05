@@ -15,8 +15,8 @@ header {
     position: absolute;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    font-size: max(16px,3vw);
-    left: 45vw;
+    font-size: max(19px,3vw);
+    left: 38vw;
     
 }
 header .container {
@@ -47,9 +47,10 @@ header .container {
   }
 
 
+  
 
 .p1{
-    top: 23vh;
+    top: 22vh;
     width: 90vw;
     position: absolute;
     left: 5vw;
@@ -58,7 +59,7 @@ header .container {
 
 }
   p{
-    font-size: min(16px,3vw);
+    font-size: max(12px,2vw);
     text-align: justify;
     line-height: 130%;
     font-family: 'Nunito', sans-serif;
@@ -66,7 +67,7 @@ header .container {
   }
 
 .p2{
-    top: 58vh;
+    top: 57vh;
     width: 90vw;
     position: absolute;
     left: 5vw;
@@ -76,7 +77,7 @@ header .container {
 }
 
 .balao2 h3{
-    padding-top: 3vh;
+    padding-top: 2vh;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: max(14px,2vw);
@@ -86,7 +87,7 @@ header .container {
 }
 
 .balao h3{
-    padding-top: 3vh;
+    padding-top: 2vh;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: max(14px,2vw);
@@ -95,8 +96,15 @@ header .container {
 
 }
 
+.boneco{
+    position: absolute;
+    bottom: 0;
+       
+}
 
-
+.boneco img{
+    width: min(120px,32vw);
+}
 
 
 main{
