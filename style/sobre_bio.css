@@ -1,0 +1,78 @@
+
+header {
+    background-color: #0A89AB;
+    height: 10vh;
+    color: white; 
+}
+
+
+
+.container a{
+    font-size: max(25px,3vw);
+    position: absolute;
+    left: 3%;
+    color: white;
+}
+
+.container h2{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: max(18px,3vw);
+    left: 30vw;
+    
+    
+}
+header .container {
+    display: flex;
+    align-items: center;
+    vertical-align: bottom;
+    height: 100%;
+    width: 90%;
+    max-width: 980px;
+}
+img{
+    width: 100vw;
+    
+    border-radius: 0px 0px 60px 60px;
+}
+p{
+  
+    padding-top: 5vh;
+    padding-left: 12vw;
+    width: 85vw;
+    font-size: min(18px,3.5vw);
+    text-align: justify;
+    line-height: 130%;
+    font-family: 'Nunito', sans-serif;
+    color: blanchedalmond;
+}
+main{
+    display: block;
+    border-radius: 0px 0px 100px 0px;
+    width: 100vw;
+    height: 100vh;
+    background: #005A72;
+  }
+.barra{
+    background-color: #0A89AB;
+    height: 10vh;
+}
+.barra h3{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2vh;
+    font-size: max(12px,3vw);
+}
+
+.icon img{
+    width: 10vw;
+}
+
+.container{
+   width: 100%;
+    display: flex;
+}
