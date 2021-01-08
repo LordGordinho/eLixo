@@ -1,0 +1,118 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+header {
+    background-color: #0A89AB;
+    height: 10vh;
+    color: white; 
+}
+
+i{
+    margin-left: 80vw;
+    position: absolute;
+    margin-top: 98vh;
+    font-size: 11vw;
+    color: white;
+
+}
+
+
+.container a{
+    font-size: max(25px,3vw);
+    position: absolute;
+    left: 3%;
+    color: white;
+}
+
+.container h2{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: max(18px,3vw);
+    margin-left: 40%;
+    transform: translate(-50%,0%);
+    
+    
+}
+header .container {
+    display: flex;
+    align-items: center;
+    vertical-align: bottom;
+    height: 100%;
+    width: 90%;
+    max-width: 980px;
+}
+
+
+main{
+
+    width: 100vw;
+    height: 100vh;
+    
+    background: #005A72;
+  }
+
+
+h1{
+    
+    text-align: center;
+    font-size: max(30px,15vw);
+    font-weight: bold;
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+
+.barra{
+  padding-bottom: 10%;
+  justify-content: space-around;
+  display: flex;
+  background-color: #005A72;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.balao_h3{
+    position: absolute;
+    left: 11vw;
+    top: 15vh;
+    height: 8vh;
+    width: 80vw;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #7ACB13;
+}
+.balao_h3 h3{
+   
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: max(14px,3vw)
+}
+
+
+.imagem_danos{
+    position: absolute;
+    top: 27%;
+    left: 38%;
+    width: 25%;
+
+}
+
+.para{
+    margin-top: 40%;
+    margin-left: 18%;
+    width: 65vw; 
+    font-size: max(11px,2vw);
+    text-align: justify;
+    line-height: 130%;
+    font-family: 'Nunito', sans-serif;
+    color: blanchedalmond;
+}
+
