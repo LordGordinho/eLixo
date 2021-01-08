@@ -5,6 +5,7 @@ html,
 body {
   height: 100vh;
   font-family: "Nunito", sans-serif;
+  overflow: hidden;
 }
 main{
     height: calc(100% - 60px);

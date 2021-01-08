@@ -139,7 +139,7 @@ main {
   cursor: pointer;
   transition: 0.2s;
   text-align: center;
-  box-shadow: 3px 3px 12px rgba(48, 48, 48, 0.9);
+  box-shadow: 3px 3px 12px rgba(63, 63, 63, 0.9);
   height: 100%;
 }
 .option:nth-child(6){
