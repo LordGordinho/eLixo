@@ -27,6 +27,7 @@ main  .container{
     display: block;
     margin: 20px;
     font-size: 1.4rem;
+    text-align: justify;
 }
 .image{
     height: 40vh;

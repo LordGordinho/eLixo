@@ -1,0 +1,51 @@
+html{
+    font-size: 62.5%;
+}
+html,
+body {
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+}
+main{
+    height: calc(100% - 60px);
+}
+main  .container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.box{
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+#b1{
+    background-color: #005A72;
+    color: white;
+}
+#b2{
+    background-color: #7ACB13;
+}
+#b1 h2,#b2 h2{
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.box h2  {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    min-width: 240px;
+    border-radius: 20px;
+}
+#b1 h2{
+    background-color: #7ACB13;
+    color: black;
+}
+#b2 h2{
+    background-color: #005A72;
+    color: white;
+}

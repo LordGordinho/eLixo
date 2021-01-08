@@ -18,7 +18,7 @@ header .container {
   left: 3%;
 }
 
-.container h2 {
+header .container h2 {
   position: absolute;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
