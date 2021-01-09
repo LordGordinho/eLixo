@@ -1,9 +1,4 @@
 
-header {
-    background-color: #0A89AB;
-    height: 10vh;
-    color: white; 
-}
 
 p{
     position: absolute;
@@ -35,32 +30,8 @@ p{
     border-radius: 20px;
     background-color: #7ACB13;
 }
-.balao_h3 h3{
-    color: black;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 2vh;
-    font-size: max(12px,3vw)
-}
-.container h2{
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: max(16px,3vw);
-    left: 30vw;
-    
-    
-}
-header .container {
-    display: flex;
-    align-items: center;
-    vertical-align: bottom;
-    height: 100%;
-    width: 90%;
-    max-width: 980px;
-}
+
+
 
 main{
     display: block;
@@ -86,8 +57,6 @@ button{
     font-family: 'Nunito', sans-serif;
     color: blanchedalmond;
     background: #0A89AB;
-    
-    
     
 }
 

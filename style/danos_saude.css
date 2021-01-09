@@ -1,29 +1,19 @@
 
-header {
-    background-color: #0A89AB;
-    height: 10vh;
-    color: white; 
-}
-
 main h3{
     color: white;
-    font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: bold;
-    padding-top: 2vh;
-    font-size: max(12px,3vw)
+    padding-top: 4vh;
+    font-size: 0.8em;
 }
 
 p{
+    padding-top: 2vh;
     position: absolute;
     top: 16%;
     left: 8%;
     width: 80vw;
-    font-size: min(12px,3vw);
-    text-align: justify;
-    line-height: 130%;
-    font-family: 'Nunito', sans-serif;
-    color: blanchedalmond;
+   
 }
 
 
@@ -34,48 +24,13 @@ p{
     color: white;
 }
 
-.balao_h3{
-    position: absolute;
-    left: 20vw;
-    top: 15vh;
-    width: 60vw;
-    display: inline-block;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    background-color: #7ACB13;
-}
-.balao_h3 h3{
-    color: black;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 2vh;
-    font-size: max(12px,3vw)
-}
-.container h2{
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: max(18px,3vw);
-    left: 30vw;
-    
-    
-}
-header .container {
-    display: flex;
-    align-items: center;
-    vertical-align: bottom;
-    height: 100%;
-    width: 90%;
-    max-width: 980px;
-}
+
 
 main{
     display: block;
     border-radius: 0px 0px 100px 0px;
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     background: #005A72;
   }
 
@@ -106,4 +61,17 @@ button{
     font-weight: bold;
     font-size: max(13px,2vw);
     margin-top: 0.5vh;
+}
+
+@media (min-width:768px){
+   
+     main h3{
+        padding-top:30px;
+        font-size: 1.1em;
+    }
+    p{
+        padding-top: 3vh;
+    }
+
+    
 }
