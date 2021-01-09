@@ -1,78 +1,74 @@
-
-header {
-    background-color: #0A89AB;
-    height: 10vh;
-    color: white; 
-}
-
-
-
-.container a{
-    font-size: max(25px,3vw);
-    position: absolute;
-    left: 3%;
-    color: white;
-}
-
-.container h2{
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    font-size: max(18px,3vw);
-    left: 30vw;
-    
-    
-}
-header .container {
-    display: flex;
-    align-items: center;
-    vertical-align: bottom;
+body{
+    background: #005A72;
     height: 100%;
-    width: 90%;
-    max-width: 980px;
+    overflow: hidden;
+    
 }
+
 img{
     width: 100vw;
-    
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 0px 0px 60px 60px;
 }
-p{
-  
-    padding-top: 5vh;
-    padding-left: 12vw;
+
+main p{
     width: 85vw;
-    font-size: min(18px,3.5vw);
-    text-align: justify;
+    margin-top: 10vh;
+    font-size: 0.8em;
     line-height: 130%;
-    font-family: 'Nunito', sans-serif;
+    text-align: justify;
     color: blanchedalmond;
 }
-main{
-    display: block;
-    border-radius: 0px 0px 100px 0px;
-    width: 100vw;
-    height: 100vh;
-    background: #005A72;
-  }
+
 .barra{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     background-color: #0A89AB;
-    height: 10vh;
+    height: 16vh;
 }
 .barra h3{
     color: white;
-    font-family: 'Nunito', sans-serif;
     text-align: center;
     font-weight: bold;
     padding-top: 2vh;
-    font-size: max(12px,3vw);
+    font-size: 0.8em;
 }
 
 .icon img{
+    padding-top: 3vh;
+    margin-left: 5vw;
     width: 10vw;
 }
 
 .container{
    width: 100%;
-    display: flex;
+   margin-left: 6vw;
+ 
 }
+
+@media (min-width:768px){
+     main p{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em;
+    }
+    h3{
+        padding-top:30px;
+        font-size: 1.2em;
+    }
+    #logo{
+        width: 100vw;
+        height: 35vh;
+    }
+    .barra{
+        height: 20vh;
+    }
+    .barra h3{
+        font-size: 1em;
+    }
+  
+}
+
+
