@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+}
+html,
+body {
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+  overflow: hidden;
+}
+main{
+    height: calc(100% - 60px);
+    background: #005A72;
+
+}
+main  .container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+main .container img{
+    width: 25%;
+}
+main i{
+    font-size: 11vw;
+    color: white;
+    position: absolute;
+}
+.balao_h3{
+    background-color: #7ACB13;
+    color: black;
+    border-radius: 25px;
+    padding: 9px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.content p{
+    display: block;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: initial;
+}
+
+main .container .content{
+    text-align: center;
+}
+#i1 {
+    left: 90%;
+    top: 50%;
+}
+#i2{
+    right: 90%;
+    top: 50%;
+}

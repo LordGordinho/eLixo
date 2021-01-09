@@ -30,21 +30,23 @@ main .container {
   padding: 0;
 }
 .text {
+  color: white;
   background-color: #005a72;
   color: white;
   width: 100%;
   padding: 25px;
   text-align: justify;
-  border-radius: 0px 0px 30% 0px;
+  border-radius: 0px 0px 50px 0px;
 }
 .text + .text {
-  border-radius: 0px 0px 0px 30%;
+  border-radius: 0px 0px 0px 50px;
 }
 #leis{
   height: 22vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  border-radius: 0px 0px 50px 0px;
 }
 #figurasLeis{
   margin-top:20px;
@@ -60,5 +62,13 @@ main .container {
 #leis img{
   margin-bottom: 5px;
   width: 10vw;
+  color: white;
+}
+.circle{
+  border: 2px solid white;
+  border-radius: 50%;
+  width: auto;
+}
+p{
   color: white;
 }

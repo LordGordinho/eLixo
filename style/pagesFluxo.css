@@ -1,0 +1,49 @@
+html{
+    font-size: 62.5%;
+}
+html,
+body {
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+  overflow: hidden;
+}
+main{
+    height: calc(90% - 60px);
+    background: #005A72;
+    border-radius:0 0 100px 100px;
+}
+main  .container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.balao_h3{
+    background-color: #7ACB13;
+    color: black;
+    border-radius: 25px;
+    padding: 9px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+.fluxo{
+    width: 100%;
+    max-height:70% ;
+}
+
+.buttons{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    height: 4vh;
+}
+.buttons button{
+    background-color: #7ACB13 ;
+    width: 30%;
+    height: 100%;
+    border-radius: 15px;
+}
