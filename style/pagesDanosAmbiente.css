@@ -14,6 +14,12 @@ main{
 
 }
 h3{
+    text-align: center;
+    margin: 20px auto;
+    background-color: #7ACB13;
+    color: black;
+    border-radius: 25px;
+    padding: 8px;
     font-size: 1.3em;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
@@ -43,14 +49,6 @@ main i{
     color: white;
     position: absolute;
 }
-.balao_h3{
-    background-color: #7ACB13;
-    color: black;
-    border-radius: 25px;
-    padding: 9px;
-    text-align: center;
-    margin: 20px auto;
-}
 
 
 .content p{
@@ -74,4 +72,27 @@ main .container .content{
 #i2{
     right: 93%;
     top: 50%;
+}
+
+
+
+@media (min-width:768px){
+    
+    h3{
+        font-size: 1.8em!important;
+      
+    }
+    h2{
+        font-size: 1.8em!important;
+    }
+    #i2{
+        font-size: 5em;
+    }
+    img{
+        width: 15vw!important;
+    }
+    p{
+        font-size: 1.5em!important;
+    }
+   
 }

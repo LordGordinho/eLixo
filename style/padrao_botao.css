@@ -38,10 +38,10 @@ h2{
 }
 
 p{
-    line-height: 105%;
+    line-height: 130%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 300;
     text-align: justify;
     color: blanchedalmond;
@@ -69,6 +69,7 @@ a{
     }
     i{
         font-size: 4vw;
+        margin-bottom: 2vw;
     }
 
 }

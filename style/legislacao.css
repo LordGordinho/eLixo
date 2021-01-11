@@ -72,6 +72,11 @@ main .container {
   width: auto;
 }
 p{
-  line-height: 105%;
+  font-size: 0.7em;
+  font-weight: bold;
+  line-height: 135%;
   color: white;
+}
+#titulo{
+  width: 95vw;
 }

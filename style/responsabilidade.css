@@ -11,7 +11,9 @@ p{
     padding-top: 4vh;
     width: 90vw;
 }
-
+h2{
+    line-height: 130%!important;
+}
 img{
     margin-top: 3vh;
     width: 100%;

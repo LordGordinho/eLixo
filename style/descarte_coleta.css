@@ -1,17 +1,16 @@
 
 body{
-    font-weight: bold;
+    
     font-family: 'Quicksand', sans-serif;
 
 }
 p{
     position: absolute;
-    top: 15%;
-    left: 8%;
-    width: 80vw;
-    font-size: min(12px,3vw);
+    top: 13%;
+    left: 7%;
+    width: 85vw;
     text-align: justify;
-    line-height: 105%;
+    line-height: 130%;
     color: blanchedalmond;
 }
 

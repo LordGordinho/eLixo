@@ -1,7 +1,7 @@
-
 h2{
-    font-size: 1em;
+    line-height: 130%!important;
 }
+
 .container a{
     font-size: max(25px,3vw);
     position: absolute;
@@ -20,7 +20,7 @@ h2{
     background-color: #7ACB13;
 }
 .balao_h3 h3{
-    font-weight: bold;
+    font-weight: bold!important;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.9em;
     color: black;
@@ -65,6 +65,6 @@ button{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
-    font-size: max(13px,2vw);
+    font-size: 0.85em!important;
     margin-top: 0.5vh;
 }

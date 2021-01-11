@@ -1,6 +1,6 @@
 p{
     width: 90vw;
-    
+    font-family: 'Quicksand', sans-serif;
     line-height: 130%;
     color: blanchedalmond;
 }
@@ -22,7 +22,7 @@ h1{
     text-align: center;
     font-weight: bold;
     color: white;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .barra{

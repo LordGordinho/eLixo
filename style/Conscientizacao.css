@@ -57,10 +57,10 @@ h2{
   }
 
 p{
-    width: 80vw;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
-    line-height:105%;
+    line-height:130%;
     font-size: 0.8em;
     font-weight: 300;
     text-align: justify;
@@ -71,7 +71,7 @@ h3{
     padding-top: 20px;
     padding-bottom: 1vh;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 0.75em!important;
     text-align: center;
     color: blanchedalmond;
 }
@@ -92,7 +92,7 @@ h3{
     }
     h3{
         padding-top:30px;
-        font-size: 1.2em;
+        font-size: 1.2em!important;
     }
 
     h2{
