@@ -4,7 +4,8 @@ html{
 html,
 body {
   height: 100vh;
-  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
   overflow: hidden;
 }
 main{
@@ -12,56 +13,119 @@ main{
     background: #005A72;
     border-radius:0 0 100px 100px;
 }
-main  .container{
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    text-align: center;
-}
+
+
 
 .balao_h3{
+    position: absolute;
+    left: 11vw;
+    top: 15vh;
+    height: 8vh;
+    width: 80vw;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
     background-color: #7ACB13;
-    color: black;
-    border-radius: 25px;
-    padding: 9px;
-    text-align: center;
-    margin: 30px auto 0 auto;
-    font-weight: bold !important;
 }
-
 .balao_h3 h3{
-    font-weight: bold !important;
-    font-size: 1.5rem;
-}
-.fluxo{
-    width: 100%;
-    max-height:70% ;
+   
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: max(14px,3vw)
 }
 
-.buttons{
-    margin: 10px auto  0 auto;
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    height: 4vh;
+img{
+    margin-top: 8vh;
+    width: 105vw;
 }
-.buttons a{
-    display: block;
-    background-color: #7ACB13 ;
-    width: 30%;
-    height: 100%;
-    border-radius: 15px;
-    line-height: 2.6rem;
-    text-decoration: none;
-    color: white;
+#botao_proximo{
+    border-radius: 20px;
+    font-size: 1.8em;
+    background: #7ACB13;
+    width: 35vw;
+    padding-top: 10px;
     font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+    margin-left: 20vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+
 }
-a:hover {
-    color: #fff !important;
-    text-decoration: none !important;
+#proximo{
+    border-radius: 20px;
+    font-size: 1.8em;
+    background: #7ACB13;
+    width: 35vw;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+
 }
-main .container img{
-    max-width: 400px;
+.botoes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    justify-content: space-between;
+    display: flex;
+    
 }
+#voltar{
+    border-radius: 20px;
+    font-size: 1.8em;
+    background: #7ACB13;
+    width: 35vw;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+    float: left;
+    color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+
+}
+
+#detalhe{
+    margin-top: 15vh;
+    margin-left: 4vw;
+    width: 95vw;
+}
+
+@media (min-width:768px){
+    img{
+        width: 50vw!important;
+        margin-left: 25vw!important;
+    }
+    .balao_h3{
+        position: absolute;
+        left: 20vw;
+        top: 15vh;
+        height: 8vh;
+        width: 60vw;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background-color: #7ACB13;
+    }
+    .balao_h3 h3{
+       
+        color: black;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+        padding-top: 2vh;
+        font-size: 2em;
+
+    }
+}
+
+
