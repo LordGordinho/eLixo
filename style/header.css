@@ -1,6 +1,6 @@
 header {
   background-color: #0a89ab;
-  height: 60px;
+  height: 64px;
   color: white;
 }
 header .container {
@@ -26,4 +26,15 @@ header .container h2 {
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#seta i{
+  font-size: 7vw;
+  position: absolute;
+  top: 21px;
+  color: white;
 }

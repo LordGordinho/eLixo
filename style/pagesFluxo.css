@@ -28,6 +28,12 @@ main  .container{
     padding: 9px;
     text-align: center;
     margin: 30px auto 0 auto;
+    font-weight: bold !important;
+}
+
+.balao_h3 h3{
+    font-weight: bold !important;
+    font-size: 1.5rem;
 }
 .fluxo{
     width: 100%;
@@ -35,15 +41,27 @@ main  .container{
 }
 
 .buttons{
-    margin: 0 auto;
+    margin: 10px auto  0 auto;
     width: 60%;
     display: flex;
     justify-content: space-around;
     height: 4vh;
 }
-.buttons button{
+.buttons a{
+    display: block;
     background-color: #7ACB13 ;
     width: 30%;
     height: 100%;
     border-radius: 15px;
+    line-height: 2.6rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+main .container img{
+    max-width: 400px;
 }
