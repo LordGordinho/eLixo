@@ -11,7 +11,7 @@ p{
     width: 85vw;
     text-align: justify;
     line-height: 130%;
-    color: blanchedalmond;
+    color: white;
 }
 
 
@@ -57,7 +57,7 @@ button{
     height: 6vh;
     display: block;
     font-family: 'Nunito', sans-serif;
-    color: blanchedalmond;
+    color: white;
     background: #0A89AB;
     
 }
