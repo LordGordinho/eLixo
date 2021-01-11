@@ -13,7 +13,8 @@ html {
 html,
 body {
   height: 100vh;
-  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
 }

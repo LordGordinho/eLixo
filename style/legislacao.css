@@ -7,13 +7,15 @@ html {
 }
 html,
 body {
+  
   height: 100vh;
-  font-family: "Nunito", sans-serif;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.6rem;
 }
 main {
@@ -70,5 +72,6 @@ main .container {
   width: auto;
 }
 p{
+  line-height: 105%;
   color: white;
 }

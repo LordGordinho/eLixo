@@ -20,8 +20,8 @@ header .container {
 
 header .container h2 {
   position: absolute;
-  font-family: "Nunito", sans-serif;
   font-weight: bold;
+  font-family: 'Quicksand', sans-serif;;
   font-size: max(16px, 3vw);
   top: 5%;
   left: 50%;

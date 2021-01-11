@@ -4,13 +4,25 @@ html{
 html,
 body {
   height: 100vh;
-  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
   overflow: hidden;
 }
 main{
     height: calc(100% - 60px);
     background: #005A72;
 
+}
+h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+#titulo {
+    padding-top: 2%;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
 }
 main  .container{
     display: flex;
@@ -21,7 +33,10 @@ main  .container{
     text-align: center;
 }
 main .container img{
+    margin-top: 4%;
+    background-color: #7ACB13;
     width: 25%;
+    border-radius: 80px;
 }
 main i{
     font-size: 11vw;
@@ -37,23 +52,26 @@ main i{
     margin: 20px auto;
 }
 
+
 .content p{
+    font-family: 'Quicksand', sans-serif;
     display: block;
     text-align: justify;
     width: 80%;
     margin: 0 auto;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: initial;
 }
 
 main .container .content{
+    padding-top: 7%;
     text-align: center;
 }
 #i1 {
-    left: 90%;
+    left: 93%;
     top: 50%;
 }
 #i2{
-    right: 90%;
+    right: 93%;
     top: 50%;
 }
