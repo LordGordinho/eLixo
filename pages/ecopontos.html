@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/padrao_botao.css">
     <link rel="stylesheet" href="../style/tela_PCI.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>   
     <script src="https://kit.fontawesome.com/609c6551de.js" crossorigin="anonymous"></script>
@@ -25,6 +26,8 @@
     </p>
   </div>
   <script>
+     
+    Swal.fire('Os pontos em azul são os ecopontos da cidade de Maceió. Para saber mais clique em um deles.')
     var map = L.map('map').setView([0,0],1);
     L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=OX9ZV3smiE09pq0n94FM',{
       attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
@@ -43,15 +46,18 @@
     map.locate({setView: true, maxZoom: 16});
     function onLocationFound(e) {
     var radius = e.accuracy;
+    
+        ;
 
-    L.marker(e.latlng).addTo(map)
-        .bindPopup("You are within " + radius + " meters from this point").openPopup();
-
-    L.circle(e.latlng, radius).addTo(map);
+    L.circle(e.latlng, radius).addTo(map).bindPopup("Você está " + radius + " metros desse ponto").openPopup();
     }
 
     map.on('locationfound', onLocationFound);
   </script>
-  
+  <div id="mensagem">
+    <p>
+      Os pontos em azul são os ecopontos da cidade de Maceió. Para saber mais clique no ponto que deseja.
+    </p>
+  </div>
 </body>
 </html>
