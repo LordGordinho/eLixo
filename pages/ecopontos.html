@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/padrao_botao.css">
+    <link rel="stylesheet" href="../style/tela_PCI.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>   
+    <script src="https://kit.fontawesome.com/609c6551de.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav>
+    <a id="seta" href="descarte_coleta.html"><i class="fas fa-chevron-left"></i></a>
+    <h2>Pontos de coleta</h2>
+  </nav>
+  <div id="map">
+
+  </div>
+  <div>
+    <p>
+
+    </p>
+  </div>
+  <script>
+    var map = L.map('map').setView([0,0],1);
+    L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=OX9ZV3smiE09pq0n94FM',{
+      attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
+      maxZoom: 18,
+    tileSize: 512,
+    zoomOffset: -1
+    }).addTo(map);
+    var ponto1 = L.marker([-9.65784499363828, -35.71240439044733]).addTo(map);
+    ponto1.bindPopup("Ecoponto Pajuçara<br>Rua Luiz Campos Teixeira, 416 - Poço, Maceió - AL, 57025-034").closePopup();
+    var ponto2 = L.marker([-9.651752714486308, -35.75840963613476]).addTo(map);
+    ponto2.bindPopup("Ecoponto Vergel<br>Av. Gov. Teobaldo Barbosa - Ponta Grossa, Maceió - AL, 57014-510<br> Contato: +55 800 082 2600").closePopup();
+    var ponto3 = L.marker([-9.58540744686172, -35.76939596346311]).addTo(map);
+    ponto3.bindPopup("Ecoponto Tabuleiro do Martins<br>Tabuleiro do Martins, Maceió - AL, 57043-170<br> Contato: +55 800 082 2600").closePopup();
+    var ponto4 = L.marker([-9.571188912619753, -35.75222982701257]).addTo(map);
+    ponto4.bindPopup("Ecoponto Santa Lúcia<br>Av. Osvaldo Ramos, 912 - Jardim Petropolis, Maceió - AL<br> Contato: +55 800 082 2600").closePopup();
+    map.locate({setView: true, maxZoom: 16});
+    function onLocationFound(e) {
+    var radius = e.accuracy;
+
+    L.marker(e.latlng).addTo(map)
+        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+    L.circle(e.latlng, radius).addTo(map);
+    }
+
+    map.on('locationfound', onLocationFound);
+  </script>
+  
+</body>
+</html>

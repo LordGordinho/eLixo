@@ -5,11 +5,7 @@ Fonte local para não quebrar com falta de internet
     src: url("../fonts/Quicksand.ttf") format("ttf"),
     }
 */
-body{
-    overflow: hidden;
-    font-family: 'Quicksand', sans-serif;
 
-}
 nav {
     display: flex;
     align-items: center;
@@ -69,10 +65,10 @@ p{
 h3{
     padding-top: 20px;
     padding-bottom: 1vh;
-    font-weight: bold;
     font-size: 0.75em!important;
     text-align: center;
     color: blanchedalmond;
+    font-family: 'Quicksand-bold', sans-serif!important;
 }
 .boneco{
     height: 20px;

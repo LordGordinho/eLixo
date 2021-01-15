@@ -27,8 +27,7 @@ button{
 
 .b1{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand-bold', sans-serif!important;
     font-size: 0.85em!important;
     margin-top: 0.5vh;
     margin-left: 5vw;
