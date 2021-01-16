@@ -1,26 +1,25 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
 }
-html,
-body {
-  
-  height: 100vh;
-  text-rendering: optimizelegibility;
-  -webkit-font-smoothing: antialiased;
-}
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-weight: bold;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.6rem;
+  overflow: hidden;
+
 }
 main {
   height: calc(100% - 60px);
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
 }
 main .container {
   box-sizing: border-box;
@@ -30,6 +29,7 @@ main .container {
   justify-content: space-around;
   margin: 0;
   padding: 0;
+  margin: 0 auto;
 }
 .text {
   color: white;
@@ -64,6 +64,8 @@ main .container {
 #leis img{
   margin-bottom: 5px;
   width: 10vw;
+
+  max-width: 44px;
   color: white;
 }
 .circle{
@@ -74,9 +76,8 @@ main .container {
 p{
   font-size: 0.7em;
   font-weight: bold;
-  line-height: 135%;
+  width: 100%;
+  /* line-height: 135%; */
   color: white;
-}
-#titulo{
-  width: 95vw;
+  text-align: center;
 }
