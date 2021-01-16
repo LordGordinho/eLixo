@@ -53,12 +53,17 @@ var questionario = [
 var resultado = []
 var contNumeroDaQuestao = 0;
 
+
 function redenrizaQuestionario(){
     let listaAlternativas = document.querySelectorAll(".alternativa")
     let pergunta = document.querySelector(".pergunta")
     let contNumeroDaAlternativa = 0;
     let numeroDaQuestao = document.querySelectorAll(".numeroDaQuestao")
     let contNumeroDaQuestao = 0
+    let tapaTudo = document.querySelector(".tapaTudo")
+
+    tapaTudo.style.display = "none"
+
 
     resultado.forEach(elemento => {
         numeroDaQuestao[contNumeroDaQuestao].classList.add(elemento)
@@ -87,6 +92,8 @@ function redenrizaQuestionario(){
 
 function  responder(element){
     let listaAlternativas = document.querySelectorAll(".alternativa")
+    let tapaTudo = document.querySelector(".tapaTudo")
+
     if(element.getAttribute("opcao") == "certa"){
         element.classList.add("certa")
         resultado.push("certa")
@@ -102,7 +109,8 @@ function  responder(element){
         }
     })
     contNumeroDaQuestao++;
-        setTimeout(redenrizaQuestionario,3000)
+    tapaTudo.style.display = "block"
+    setTimeout(redenrizaQuestionario,1000)
 }
 
 function exibeResultado(){
@@ -115,11 +123,26 @@ function exibeResultado(){
 
     })
 
+    let porcentagemCerta = (certa/5)*100;
+
     main.innerHTML  = `
-        
+                <div class="container">
+                <div class="content">
+                    <h2 class="resultado">Resultado do quiz</h2>
+                    <h3 class="pontuacao"><strong>${certa}</strong> repostas corretas de <strong>5</strong></h3>
+                    <h3 class="pontuacao">Sua pontuacao foi de <strong>${porcentagemCerta}%</strong></h3>
+                    <div class="botoes">
+                        <button><a href="../index.html">Voltar</a></button>
+                        <button class="refazer">Refazer</button>
+                    </div>
+                </div>
+            </div>
                         `
 
-    let porcentagemCerta = (certa/5)*100;
-    console.log(certa+" "+porcentagemCerta)
+    let refazer = document.querySelector(".refazer")
+    refazer.addEventListener('click', ()=>{
+        location.reload();
+        return false;   
+    })
 
 }

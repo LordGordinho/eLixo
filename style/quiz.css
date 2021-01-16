@@ -8,6 +8,15 @@ body {
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
 }
+.tapaTudo{
+    
+    position: absolute;
+    display: block;
+    background-color: rgba(255 , 255, 255, 0);
+    width: 100vw;
+    height: 100vh;
+    /* opacity: 0; */
+}
 main{
     height: calc(85% - 60px);
     background-color: #005A72;
@@ -23,6 +32,52 @@ main  .container{
     flex-direction: column;
     color: white;
     max-width: 700px;
+}
+main .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 45%;
+    width: 70%;
+    background-color: #0A89AB;
+    box-shadow: 3px 3px 5px  rgb(34, 34, 34);
+    border-radius: 10px;
+
+    min-width: 225px;
+    max-width: 350px;
+
+    min-height: 140px;
+}
+main .content h3{
+    font-size: 1.6rem;
+}
+strong{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+main .content h2{
+    margin-top: 15px;
+    font-size: 2.4rem;
+}
+main .botoes{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+
+}
+main .content button{
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 35%;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+
+    border-radius: 7px;
 }
 .numerosDasQuestoes{
     display: flex;
@@ -92,4 +147,8 @@ footer{
     display: block;
     padding: 20px;
     text-align: center;
+}
+a{
+    color: black;
+    
 }

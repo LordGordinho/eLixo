@@ -67,12 +67,9 @@ h3{
     padding-bottom: 1vh;
     font-size: 0.75em!important;
     text-align: center;
-<<<<<<< HEAD
-    color: white;
-=======
-    color: blanchedalmond;
+    color: white
     font-family: 'Quicksand-bold', sans-serif!important;
->>>>>>> bdab91dcbc7b70f84208ac388b7e4a6ce08285ec
+
 }
 .boneco{
     height: 20px;
