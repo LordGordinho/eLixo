@@ -71,3 +71,23 @@ nav {
     display: block;
     
 }
+.telaCarregamento{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #005A72;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.telaCarregamento img{
+    width: 25vw;
+    height: auto;  
+    margin-bottom: 15px; 
+}
+.telaCarregamento h1{
+    color: white;
+    font-size: 4rem;
+}

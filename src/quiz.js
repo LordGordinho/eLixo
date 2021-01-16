@@ -110,7 +110,7 @@ function  responder(element){
     })
     contNumeroDaQuestao++;
     tapaTudo.style.display = "block"
-    setTimeout(redenrizaQuestionario,1000)
+    setTimeout(redenrizaQuestionario,2000)
 }
 
 function exibeResultado(){
