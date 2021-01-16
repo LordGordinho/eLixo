@@ -1,44 +1,51 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
 }
-html,
-body {
-  
-  height: 100vh;
-  text-rendering: optimizelegibility;
-  -webkit-font-smoothing: antialiased;
-}
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-weight: bold;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.6rem;
+  overflow: hidden;
+
 }
 main {
   height: calc(100% - 60px);
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
 }
 main .container {
   box-sizing: border-box;
   display: flex;
-  height: 70%;
+  height: 90%;
   flex-direction: column;
   justify-content: space-around;
   margin: 0;
   padding: 0;
+  margin: 0 auto;
 }
 .text {
   color: white;
   background-color: #005a72;
   color: white;
   width: 100%;
-  padding: 25px;
+  padding: 17px 25px;
   text-align: justify;
   border-radius: 0px 0px 50px 0px;
+}
+.text:nth-child(1),.text:nth-child(2){
+  min-height: 95px;
+}
+
+.text:nth-child(3){
+  min-height: 125px;
 }
 .text + .text {
   border-radius: 0px 0px 0px 50px;
@@ -51,19 +58,22 @@ main .container {
   border-radius: 0px 0px 50px 0px;
 }
 #figurasLeis{
-  margin-top:20px;
-  height: 50%;
+  margin:20px 0;
+  height: 60%;
   display: flex;
+  justify-content: space-around;
 }
 #leis figure{
   text-align: center;
   font-size: 1.2rem;
-  margin: 5px;
+  /* margin: 5px; */
   flex-grow: 1;
 }
 #leis img{
   margin-bottom: 5px;
   width: 10vw;
+
+  max-width: 44px;
   color: white;
 }
 .circle{
@@ -72,11 +82,19 @@ main .container {
   width: auto;
 }
 p{
-  font-size: 0.7em;
+  font-size: 1.2rem;
   font-weight: bold;
-  line-height: 135%;
+  width: 100%;
   color: white;
+  text-align: justify;
 }
 #titulo{
-  width: 95vw;
+  margin-top: 15px  !important;
+  text-align: center;
+}
+figcaption{
+  line-height: 1.6rem;
+}
+a{
+  color: white;
 }
