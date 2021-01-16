@@ -1,5 +1,5 @@
 function telaInicial(){
-    setTimeout(carregaMenu, 1500)
+    setTimeout(carregaMenu, 500)
 }
 
 function carregaMenu(){

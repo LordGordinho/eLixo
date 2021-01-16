@@ -1,8 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+html{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
 body{
     background: #005A72;
     height: 100%;
+    width: 100vw;
     overflow: hidden;
-    
 }
 
 img{
