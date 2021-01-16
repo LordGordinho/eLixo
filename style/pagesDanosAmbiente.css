@@ -22,13 +22,13 @@ h3{
     padding: 8px;
     font-size: 1.3em;
     font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand-bold', sans-serif;
 }
 #titulo {
     padding-top: 2%;
     font-size: 1.3em;
     font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand-bold', sans-serif;
 }
 main  .container{
     display: flex;

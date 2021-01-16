@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand.ttf");
+
+}
+@font-face {
+  font-family: 'Quicksand-bold';
+  src: url("../fonts/Quicksand-bold.ttf");
+
+}
+
 * {
   font-family: "Quicksand" !important;
   box-sizing: border-box;
@@ -13,6 +24,7 @@ html {
 
 html,
 body {
+  font-family: 'Quicksand-bold';
   height: 100vh;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
@@ -148,6 +160,7 @@ main {
   height: 35%;
 }
 .option .content p {
+  font-family: 'Quicksand-bold';
   height: 100%;
 }
 .option:active,
