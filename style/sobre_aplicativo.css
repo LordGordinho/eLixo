@@ -2,7 +2,7 @@ p{
     width: 90vw;
     font-family: 'Quicksand', sans-serif;
     line-height: 130%;
-    color: blanchedalmond;
+    color: white;
 }
 main{
     display: flex!important;
@@ -13,7 +13,7 @@ main{
     background: #005A72;
 }
 
-img{
+#imagem_principal{
     height: 17vh;
 }
 

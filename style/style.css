@@ -10,6 +10,7 @@
 }
 
 * {
+  font-family: "Quicksand" !important;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -27,6 +28,7 @@ body {
   height: 100vh;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
+  font-weight: bold;
 }
 
 body {
@@ -39,7 +41,6 @@ header {
   height: 60px;
   color: white;
   font-size: 1.6rem;
-  font-weight: 700;
 }
 
 header h2{
@@ -134,7 +135,6 @@ main {
 .text--medium {
   font-size: 1.6rem;
   line-height: 3vh;
-  font-weight: 700;
   color: #005a72;
   display: flex;
   justify-content: center;
@@ -193,7 +193,6 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-weight: 800;
   font-size: 3rem;
 }
 

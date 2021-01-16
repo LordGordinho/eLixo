@@ -26,11 +26,15 @@ nav {
     color: white; 
 }
 
+#seta img{
+    width: 10vw;
+}
 #seta{
-    font-size: 7vw;
+    font-size: 5vw;
     position: absolute;
     margin-left: 3vw;
     color: white;
+    width: 20vw;
 }
 
 h2{
@@ -49,7 +53,7 @@ p{
     font-size: 0.7em;
     font-weight: 300;
     text-align: justify;
-    color: blanchedalmond;
+    color: white;
 }
 
 

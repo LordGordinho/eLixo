@@ -59,7 +59,7 @@ p{
     font-size: 0.8em;
     font-weight: 300;
     text-align: justify;
-    color: blanchedalmond;
+    color: white;
 }
 
 h3{
@@ -67,8 +67,9 @@ h3{
     padding-bottom: 1vh;
     font-size: 0.75em!important;
     text-align: center;
-    color: blanchedalmond;
+    color: white;
     font-family: 'Quicksand-bold', sans-serif!important;
+
 }
 .boneco{
     height: 20px;

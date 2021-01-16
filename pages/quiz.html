@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/resetButton.css">
+    <link rel="stylesheet" href="../style/padrao_botao.css">
+    <link rel="stylesheet" href="../style/quiz.css">
+    <link rel="stylesheet" href="../style/fonts.css">
+
+    <title>Quiz</title>
+    
+</head>
+<body onload="redenrizaQuestionario()">
+  <nav>
+      <a id="seta" href="../index.html"><img src= '../icons/seta.png'></a>
+      <h2>QUIZ</h2>
+  </nav>
+  <div class="tapaTudo"></div>
+  <main>
+    
+      <div class="container">
+        <ul class="numerosDasQuestoes"> 
+            <li class="numeroDaQuestao">1</li>
+            <li class="numeroDaQuestao">2</li>
+            <li class="numeroDaQuestao">3</li>
+            <li class="numeroDaQuestao">4</li>
+            <li class="numeroDaQuestao">5</li>
+        </ul>
+        <h3 class="pergunta">O que é o e-Lixo?</h3>
+        <ul class="listaDealternativas">
+            <li class="alternativa" onclick="responder(this)"></li>
+            <li class="alternativa" onclick="responder(this)"></li>
+            <li class="alternativa" onclick="responder(this)"></li>
+            <li class="alternativa" onclick="responder(this)"></li>
+        </ul>
+      </div>
+      
+  </main>
+  <footer >
+      <p class="textFooter">Teste seus conhecimentos sobre o lixo eletrônico de acordo com o que foi informado.</p>
+  </footer>
+  <script src="../src/quiz.js"></script>
+</body>
+
+</html>
