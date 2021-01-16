@@ -15,7 +15,7 @@ h2{
     
     line-height: 130%!important;
 }
-img{
+#imagem_principal{
     margin-top: 3vh;
     width: 100%;
     object-fit: cover;

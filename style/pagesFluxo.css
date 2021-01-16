@@ -38,8 +38,8 @@ main{
     font-size: max(14px,3vw)
 }
 
-img{
-    margin-top: 8vh;
+#imagem_principal{
+    margin-top: 10vh;
     width: 105vw;
 }
 #botao_proximo{
@@ -95,7 +95,7 @@ img{
 
 }
 
-#detalhe{
+.detalhe{
     margin-top: 15vh;
     margin-left: 4vw;
     width: 95vw;

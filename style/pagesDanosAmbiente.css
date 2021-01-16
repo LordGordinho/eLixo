@@ -38,7 +38,7 @@ main  .container{
     align-items: center;
     text-align: center;
 }
-main .container img{
+.imagem_danos{
     margin-top: 4%;
     background-color: #7ACB13;
     width: 25%;
@@ -65,12 +65,15 @@ main .container .content{
     padding-top: 7%;
     text-align: center;
 }
+
 #i1 {
-    left: 93%;
+    position: absolute;
+    left: 89%;
     top: 50%;
 }
 #i2{
-    right: 93%;
+    position: absolute;
+    right: 89%;
     top: 50%;
 }
 
