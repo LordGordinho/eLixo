@@ -3,31 +3,31 @@ var questionario = [
         questao:"O que é e-lixo ?",
         alternativa:[
             "é o lixo doméstico",
-            "é o descarte de papel ee garrafas plásticas",
+            "é o descarte de papel e garrafas plásticas",
             "É o lixo composto de matéria orgânica",
             "São os equipamentos eletrônicos descartados"
         ],
         respostaCorreta:3
     },
     {
-        questao:"As placas ded circuito impresso (PCI) e os componentes, fazem parte do e-lixo ?",
+        questao:"As placas de circuito impresso (PCI) e os componentes, fazem parte do e-lixo ?",
         alternativa:[
             "Sim",
             "Não",
             "Nem todas",
             "Algumas partes"
         ],
-        respostaCorreta:""
+        respostaCorreta:0
     },
     {
-        questao:"Qual o de descarte do e-lixo ?",
+        questao:"Qual o local de descarte do e-lixo ?",
         alternativa:[
             "No lixo comum de casa",
-            "Nos lixõe",
+            "Nos lixões",
             "Nas lixeiras seletivas",
             "No meio da rua"
         ],
-        respostaCorreta:""
+        respostaCorreta:2
     },
     {
         questao:"O descarte incorreto do e-lixo traz danos ao meio ambiente e à saúde humana ?",
@@ -37,7 +37,7 @@ var questionario = [
             "Depede do local",
             "Nem sempre"
         ],
-        respostaCorreta:""
+        respostaCorreta:0
     },
     {
         questao:"O que é gerado da reciclagem de placas de circuitos impresso ?",
@@ -47,7 +47,7 @@ var questionario = [
             "Contaminação do ar",
             "Dano à saúde humana"
         ],
-        respostaCorreta:""
+        respostaCorreta:0
     },
 ]
 var resultado = []
