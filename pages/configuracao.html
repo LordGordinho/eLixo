@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/resetButton.css">
+    <link rel="stylesheet" href="../style/configuracoes.css">
+    <link rel="stylesheet" href="../style/padrao_botao.css">
+    <link rel="stylesheet" href="../style/fonts.css">
+
+
+    <title>Configurações do Aplicativo</title>
+    
+</head>
+<body onload="carregaFont()">
+    <nav>
+      <a id="seta" href="../index.html"><img src= '../icons/seta.png'></a>
+        <h2>Configurações do Aplicativo</h2>
+    </nav>
+  <main>
+    <div class="container">
+        <label for="font">Selecione o tamanho da fonte</label>
+        <select name="font" id="font">
+            <option value="Normal">Normal</option>
+            <option value="Media">Media</option>
+            <option value="Grande">Grande</option>
+            <option value="XGrande">Extra Grande</option>
+
+        </select>
+        <button onclick="aplicaConfiguracoes()">Aplicar</button>
+    </div>
+  </main>
+  <script src="../js/alteraFontSize.js"></script>
+</body>
+
+</html>

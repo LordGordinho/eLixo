@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/resetButton.css">
-    <link rel="stylesheet" href="../style/padrao_botao.css">
     <link rel="stylesheet" href="../style/quiz.css">
+    <link rel="stylesheet" href="../style/padrao_botao.css">
     <link rel="stylesheet" href="../style/fonts.css">
 
     <title>Quiz</title>
     
 </head>
-<body onload="redenrizaQuestionario()">
+<body onload="redenrizaQuestionario(); carregaFont()">
   <nav>
       <a id="seta" href="../index.html"><img src= '../icons/seta.png'></a>
       <h2>QUIZ</h2>
@@ -43,6 +43,8 @@
       <p class="textFooter">Teste seus conhecimentos sobre o lixo eletrônico de acordo com o que foi informado.</p>
   </footer>
   <script src="../src/quiz.js"></script>
+  <script src="../js/alteraFontSize.js"></script>
+
 </body>
 
 </html>

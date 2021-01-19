@@ -40,6 +40,7 @@ h2{
     height: 30vh;
     background: #005A72;
     margin-bottom: 1vh;
+    overflow: auto;
   }
 .balao2{
     
@@ -49,6 +50,7 @@ h2{
     height: 30vh;
     background: #005A72;
     margin-bottom: 1vh;
+    overflow: auto;
   }
 
 p{
@@ -65,7 +67,7 @@ p{
 h3{
     padding-top: 20px;
     padding-bottom: 1vh;
-    font-size: 0.75em!important;
+    font-size: 1.6rem!important;
     text-align: center;
 
     color: white;

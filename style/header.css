@@ -2,6 +2,9 @@ header {
   background-color: #0a89ab;
   height: 64px;
   color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 header .container {
   display: flex;

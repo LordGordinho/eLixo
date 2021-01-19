@@ -26,7 +26,7 @@ main  .container{
 .container .content p{
     display: block;
     margin: 20px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: justify;
 }
 .image{

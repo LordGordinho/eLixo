@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/reset.css">
-    <link rel="stylesheet" href="../style/padrao_botao.css">
     <link rel="stylesheet" href="../style/tela_PCI.css">
+    <link rel="stylesheet" href="../style/padrao_botao.css">
     <script src="../js/sweetalert2.all.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>   
     <link rel="stylesheet" href="../style/fonts.css">
 </head>
-<body>
+<body onload="carregaFont()">
   <nav>
     <a id="seta" href="descarte_coleta.html"><img src= '../icons/seta.png'></a>
     <h2>Pontos de coleta</h2>
@@ -58,5 +58,7 @@
       Os pontos em azul são os ecopontos da cidade de Maceió. Para saber mais clique no ponto que deseja.
     </p>
   </div>
+  <script src="../js/alteraFontSize.js"></script>
+
 </body>
 </html>

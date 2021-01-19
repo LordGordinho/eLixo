@@ -17,15 +17,18 @@ main  .container{
     flex-direction: column;
 }
 .box{
-    flex-grow: 1;
+    height: 50%;
     text-align: center;
     padding: 20px;
     line-height: 2.5rem;
     font-size: 1.5rem;
+    font-size:1.6rem;
+    overflow: auto;
 }
 #b1{
     background-color: #005A72;
     color: white;
+
 }
 #b2{
     background-color: #7ACB13;

@@ -33,6 +33,7 @@ h3{
     font-family: 'Quicksand-bold', sans-serif;
 }
 main  .container{
+    justify-content: center;
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -83,7 +84,36 @@ main .container .content{
     top: 50%;
 }
 
+button{
+    position: absolute;
+    bottom:40px;
+    font-size: 2rem;
+    border-radius: 10px;
+    background: #0A89AB;
+    width: 50vw;
+    padding: 10px;
+    transition:.2s;
+}
+button:active{
+    background-color: white;
+    color: #0A89AB;
 
+}
+select{
+    width: 40vw;
+    font-size: 1.4rem;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+}
+select:focus{
+    border: 3px solid  #0A89AB;
+}
+label{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
 
 @media (min-width:768px){
     

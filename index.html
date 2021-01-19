@@ -10,7 +10,7 @@
     <script src="js/close.js"></script>
     <title>eLixo</title>
 </head>
-<body onload="telaInicial()">
+<body onload="telaInicial(); criaLocalStorage()">
     <div class="telaCarregamento">
       <img src="./images/Logo.png" alt="">
       <h1>eLixo</h1>
@@ -30,7 +30,10 @@
                     <a href="pages/sobre_aplicativo.html">Sobre</a>
                   </li>
                   <li>
-                    <a onclick="fecha()">Sair</a>
+                    <a href="./pages/configuracao.html">Configurações</a>
+                  </li>
+                  <li>
+                    <a onclick="exitFromApp()">Sair</a>
                   </li>
                 </ul>
               </nav>
@@ -110,5 +113,12 @@
     </script>
     <script src="./menu.js"></script>
     <script src="./src/index.js"></script>
+    <script src="./js/alteraFontSize.js"></script>
+    <script>
+             function exitFromApp()
+       {
+            navigator.device.exitApp();
+       }
+    </script>
 </body>
 </html>
