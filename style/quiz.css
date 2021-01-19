@@ -39,7 +39,7 @@ main .content{
     align-items: center;
     justify-content: space-around;
     height: 45%;
-    width: 70%;
+    width: 80%;
     background-color: #0A89AB;
     box-shadow: 3px 3px 5px  rgb(34, 34, 34);
     border-radius: 10px;
@@ -87,8 +87,8 @@ main .content button{
     max-width: 310px;
 }
 .numeroDaQuestao{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     text-align: center;
     display: block;
     background-color: #0A89AB;

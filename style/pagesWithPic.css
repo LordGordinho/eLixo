@@ -21,16 +21,17 @@ main  .container{
     background-color: #005a72;
     color: white;
     border-radius: 0 0 25% 0;
+    margin-bottom: 10px;
 }
 
 .container .content p{
     display: block;
-    margin: 20px;
+    margin: 22px;
     font-size: 1.5rem;
     text-align: justify;
 }
 .image{
-    height: 40vh;
+    height: 38vh;
     overflow: hidden;
     border-radius: 40% 40% 0 0;
     display: block;

@@ -35,17 +35,17 @@ p{
 
 
 main{
-    display: block;
     border-radius: 0px 0px 100px 0px;
     width: 100vw;
-    height: 28vh;
+    height: 32vh;
     background: #005A72;
-  }
+    font-size: max(25px);
 
+  }
 
 .botoes{
    position: absolute;
-   margin-left: 6vw;
+   margin: 6vw;
    top: 42%;
 }
 button{

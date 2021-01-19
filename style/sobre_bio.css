@@ -30,7 +30,11 @@ main p{
     text-align: justify;
     color: white;
 }
-
+main .content{
+    margin-top: 10px;
+    height: 30vh;
+    overflow: auto;
+}
 .barra{
     position: absolute;
     width: 100%;

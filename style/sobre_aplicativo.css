@@ -16,6 +16,10 @@ main{
 #imagem_principal{
     height: 17vh;
 }
+main .content{
+    height: 50vh;
+    overflow: auto;
+}
 
 h1{
     font-size: 1.5em;

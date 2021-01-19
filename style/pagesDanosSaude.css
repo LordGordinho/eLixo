@@ -35,7 +35,8 @@ main  .container{
 }
 #b1 h2,#b2 h2{
     font-size: 1.6rem;
-    line-height: 3rem;
+    line-height: 2rem;
+    padding: 5px 10px;
     font-weight: bold;
     margin-bottom: 15px;
 }
