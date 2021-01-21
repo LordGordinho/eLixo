@@ -33,7 +33,7 @@ h2{
 }
 
 .balao{
-    
+    box-sizing: border-box;
     margin-top: 15vh;
     border-radius: 0px 0px 100px 0px;
     width: 100vw;
@@ -41,9 +41,10 @@ h2{
     background: #005A72;
     margin-bottom: 1vh;
     overflow: auto;
+    padding: 10px 10px 30px 10px;
   }
 .balao2{
-    
+    box-sizing: border-box;
     margin-top: 8vh;
     border-radius: 0px 0px 100px 0px;
     width: 100vw;
@@ -51,6 +52,8 @@ h2{
     background: #005A72;
     margin-bottom: 1vh;
     overflow: auto;
+    padding: 10px 10px 30px 10px;
+
   }
 
 p{

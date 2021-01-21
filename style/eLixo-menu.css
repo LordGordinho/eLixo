@@ -1,8 +1,10 @@
 .balao{
+    box-sizing: border-box;
+    padding: 10px 10px 30px 10px;
+    background: #005A72;
     height: 47vh;
     border-radius: 0px 0px 100px 0px;
     width: 100vw;
-    background: #005A72;
     overflow: auto;
 }
 

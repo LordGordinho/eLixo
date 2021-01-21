@@ -28,6 +28,7 @@ h3{
 }
 #titulo {
     padding-top: 2%;
+    margin-bottom: 10px;
     font-size: 1.3rem;
     font-weight: bold;
     font-family: 'Quicksand-bold', sans-serif;
@@ -52,24 +53,21 @@ main i{
     position: absolute;
 }
 
-
 .content p{
     font-family: 'Quicksand', sans-serif;
     display: block;
     text-align: justify;
     width: 80%;
-    margin: 0 auto;
+    margin: 0  auto 30px auto;
     font-size: 1.2rem;
     line-height: initial;
     
 }
 
 main .container .content{
-    padding-top: 7%;
     text-align: center;
     overflow: auto;
     margin-top: 10px;
-
 }
 
 #i1 {

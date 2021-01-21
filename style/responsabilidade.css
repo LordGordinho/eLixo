@@ -6,10 +6,12 @@
     height: 30vh;
     border-radius: 0 0 25% 0;
     overflow: auto;
+    box-sizing: border-box;
+    padding: 10px 10px 30px 10px;
 }
 
 p{
-    padding-top: 4vh;
+
     width: 90vw;
 }
 h2{
